@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # This script prompts for an assignment name, updates the ASSIGNMENT value
 # in config/config.env, and finally rund the strtup.sh
