@@ -18,7 +18,7 @@ mkdir -p "$app_dir/config"
 
 
 # Create the reminder.sh file
-cat <<EOL > "$app_dir/app/reminder.sh"
+cat <<'EOL' > "$app_dir/app/reminder.sh"
 #!/usr/bin/env bash
 echo "Reminder script running..."
 #Source environment variables and helper functions
@@ -37,7 +37,7 @@ check_submissions $submissions_file
 EOL
 
 # Create the functions.sh file
-cat <<EOL > "$app_dir/modules/functions.sh"
+cat <<'EOL' > "$app_dir/modules/functions.sh"
 #!/bin/bash
 
 # Function to read submissions file and output students who have not submitted
@@ -58,6 +58,7 @@ function check_submissions {
         fi
     done < <(tail -n +2 "$submissions_file") # Skip the header
 }
+EOL
 
 # Create the submissions.txt file with sample data
 cat <<EOL > "$app_dir/assets/submissions.txt"
@@ -77,10 +78,10 @@ EOL
 
 # Create the config.env file
 cat <<EOL > "$app_dir/config/config.env"
-ASSIGNMENT=assignment1
 # This is the config file
 ASSIGNMENT="Shell Navigation"
 DAYS_REMAINING=2
+USER_NAME="$user_name"
 EOL
 
 # Create the startup.sh file
