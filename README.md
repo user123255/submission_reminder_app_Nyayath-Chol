@@ -12,6 +12,9 @@ Below is what the App does
 •	Let me change the assignment name anytime and re-check.
 •	Run everything through a single startup script.
 
+
+
+
 Project Structure
 
 submission_reminder_{MyName}/
@@ -44,6 +47,10 @@ Change directory to submission_reminder_Nyayath
 It will print out a list of students who haven’t submitted the assignment.
 
 
+
+
+
+
 Updating the Assignment Name
 I created another script called copilot_shell_script.sh. It allows me to change the assignment name and check the new submission status.
 To use it, you will have to run:
@@ -54,10 +61,14 @@ To use it, you will have to run:
 •	Then it runs the app again to show who hasn't submitted the new assignment.
 
 
+
+
 Git Branches I Used
 I followed a simple Git workflow:
 •	Created a branch called feature/setup for development.
 •	After testing everything, I merged it into the main branch.
+
+
 
 And only three files are in the main branch:
 •	create_environment.sh
@@ -65,6 +76,8 @@ And only three files are in the main branch:
 •	README.md
 
 Files I Worked With;
+
+
 
 
 These are the files that make the app run:
@@ -75,6 +88,8 @@ These are the files that make the app run:
 •	startup. Sh – I created this to bring everything together.
 
 
+
+
 What I Made Sure to Do
 
 •	Created the directory and organized the files.
@@ -83,6 +98,8 @@ What I Made Sure to Do
 •	Built a working startup.sh script.
 •	Wrote the copilot_shell_script.sh to update assignment names.
 •	Tested everything to make sure it runs smoothly.
+
+
 
 About Me
 I’m Nyayath Lual Deng Chol, and I’m currently learning software engineering. I built this app as part of my shell scripting journey. I really enjoyed the process — it taught me how to automate tasks, work with files, and write clean scripts that solve problems.
