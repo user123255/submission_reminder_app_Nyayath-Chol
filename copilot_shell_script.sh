@@ -13,8 +13,6 @@ dir_name=$(basename "$app_dir")
 user_name="${dir_name#submission_reminder_}"
 
 # Output to verify
-echo "Detected app directory: $app_dir"
-echo "Extracted user name: $user_name"
 # prompt the user for the assignment name 
 read -p "Enter the new assignment name: " assignment_name
 
