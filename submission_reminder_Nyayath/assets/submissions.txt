@@ -1,0 +1,12 @@
+student, assignment, submission status
+Chinemerem, Shell Navigation, not submitted
+Chiagoziem, Git, submitted
+Divine, Shell Navigation, not submitted
+Anissa, Shell Basics, submitted
+John John, Shell Navigation, submitted
+Nyayath Lual, Git, not submitted
+Sarah Ayen, Shell Basics, not submitted
+Mary Daniel, Shell Navigation, submitted
+Chan Chan , Git, submitted
+David Garang, Shell Basics, submitted 
+
